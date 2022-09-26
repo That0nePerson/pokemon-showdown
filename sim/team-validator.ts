@@ -834,7 +834,7 @@ export class TeamValidator {
 			}
 		}
 		if (set.hpType && maxedIVs && ruleTable.has('obtainablemisc')) {
-			if (dex.gen <= 2) {
+			/*if (dex.gen <= 2) {
 				const HPdvs = dex.types.get(set.hpType).HPdvs;
 				set.ivs = {hp: 30, atk: 30, def: 30, spa: 30, spd: 30, spe: 30};
 				let statName: StatID;
@@ -842,7 +842,7 @@ export class TeamValidator {
 					set.ivs[statName] = HPdvs[statName]! * 2;
 				}
 				set.ivs.hp = -1;
-			} else if (!canBottleCap) {
+			} else */if (!canBottleCap) {
 				set.ivs = TeamValidator.fillStats(dex.types.get(set.hpType).HPivs, 31);
 			}
 		}

@@ -19,9 +19,9 @@ export const TypeChart: {[k: string]: TypeData} = {
 			Rock: 1,
 			Steel: 0,
 			Water: 0,
+			Cosmic: 0,
 		},
-		HPivs: {atk: 30, def: 30, spd: 30},
-		HPdvs: {atk: 13, def: 13},
+		HPivs: {def: 30, spd: 30, spe: 30},
 	},
 	dark: {
 		damageTaken: {
@@ -44,8 +44,9 @@ export const TypeChart: {[k: string]: TypeData} = {
 			Rock: 0,
 			Steel: 0,
 			Water: 0,
+			Cosmic: 0,
 		},
-		HPivs: {},
+		HPivs: {def: 30},
 	},
 	dragon: {
 		damageTaken: {
@@ -67,9 +68,9 @@ export const TypeChart: {[k: string]: TypeData} = {
 			Rock: 0,
 			Steel: 0,
 			Water: 2,
+			Cosmic: 0,
 		},
-		HPivs: {atk: 30},
-		HPdvs: {def: 14},
+		HPivs: {spe: 30},
 	},
 	electric: {
 		damageTaken: {
@@ -92,9 +93,9 @@ export const TypeChart: {[k: string]: TypeData} = {
 			Rock: 0,
 			Steel: 2,
 			Water: 0,
+			Cosmic: 0,
 		},
-		HPivs: {spa: 30},
-		HPdvs: {atk: 14},
+		HPivs: {def: 30, spa: 30},
 	},
 	fairy: {
 		damageTaken: {
@@ -116,7 +117,9 @@ export const TypeChart: {[k: string]: TypeData} = {
 			Rock: 0,
 			Steel: 1,
 			Water: 0,
+			Cosmic: 1,
 		},
+		HPivs: {hp: 30},
 	},
 	fighting: {
 		damageTaken: {
@@ -138,9 +141,9 @@ export const TypeChart: {[k: string]: TypeData} = {
 			Rock: 2,
 			Steel: 0,
 			Water: 0,
+			Cosmic: 0,
 		},
 		HPivs: {def: 30, spa: 30, spd: 30, spe: 30},
-		HPdvs: {atk: 12, def: 12},
 	},
 	fire: {
 		damageTaken: {
@@ -163,9 +166,9 @@ export const TypeChart: {[k: string]: TypeData} = {
 			Rock: 1,
 			Steel: 2,
 			Water: 1,
+			Cosmic: 0,
 		},
-		HPivs: {atk: 30, spa: 30, spe: 30},
-		HPdvs: {atk: 14, def: 12},
+		HPivs: {spd: 30},
 	},
 	flying: {
 		damageTaken: {
@@ -187,9 +190,9 @@ export const TypeChart: {[k: string]: TypeData} = {
 			Rock: 1,
 			Steel: 0,
 			Water: 0,
+			Cosmic: 0,
 		},
-		HPivs: {hp: 30, atk: 30, def: 30, spa: 30, spd: 30},
-		HPdvs: {atk: 12, def: 13},
+		HPivs: {spa: 30, spd: 30, spe: 30},
 	},
 	ghost: {
 		damageTaken: {
@@ -212,9 +215,9 @@ export const TypeChart: {[k: string]: TypeData} = {
 			Rock: 0,
 			Steel: 0,
 			Water: 0,
+			Cosmic: 0,
 		},
-		HPivs: {def: 30, spd: 30},
-		HPdvs: {atk: 13, def: 14},
+		HPivs: {spd: 30, spe: 30},
 	},
 	grass: {
 		damageTaken: {
@@ -237,9 +240,9 @@ export const TypeChart: {[k: string]: TypeData} = {
 			Rock: 0,
 			Steel: 0,
 			Water: 2,
+			Cosmic: 0,
 		},
-		HPivs: {atk: 30, spa: 30},
-		HPdvs: {atk: 14, def: 14},
+		HPivs: {hp: 30, atk: 30, def: 30, spa: 30},
 	},
 	ground: {
 		damageTaken: {
@@ -262,9 +265,9 @@ export const TypeChart: {[k: string]: TypeData} = {
 			Rock: 2,
 			Steel: 0,
 			Water: 1,
+			Cosmic: 0,
 		},
-		HPivs: {spa: 30, spd: 30},
-		HPdvs: {atk: 12},
+		HPivs: {hp: 30, spa: 30, spd: 30},
 	},
 	ice: {
 		damageTaken: {
@@ -288,9 +291,9 @@ export const TypeChart: {[k: string]: TypeData} = {
 			Rock: 1,
 			Steel: 1,
 			Water: 0,
+			Cosmic: 0,
 		},
-		HPivs: {atk: 30, def: 30},
-		HPdvs: {def: 13},
+		HPivs: {def: 30, spe: 30},
 	},
 	normal: {
 		damageTaken: {
@@ -312,6 +315,7 @@ export const TypeChart: {[k: string]: TypeData} = {
 			Rock: 0,
 			Steel: 0,
 			Water: 0,
+			Cosmic: 1,
 		},
 	},
 	poison: {
@@ -336,9 +340,9 @@ export const TypeChart: {[k: string]: TypeData} = {
 			Rock: 0,
 			Steel: 0,
 			Water: 0,
+			Cosmic: 0,
 		},
 		HPivs: {def: 30, spa: 30, spd: 30},
-		HPdvs: {atk: 12, def: 14},
 	},
 	psychic: {
 		damageTaken: {
@@ -360,9 +364,9 @@ export const TypeChart: {[k: string]: TypeData} = {
 			Rock: 0,
 			Steel: 0,
 			Water: 0,
+			Cosmic: 2,
 		},
-		HPivs: {atk: 30, spe: 30},
-		HPdvs: {def: 12},
+		HPivs: {spa: 30},
 	},
 	rock: {
 		damageTaken: {
@@ -385,9 +389,9 @@ export const TypeChart: {[k: string]: TypeData} = {
 			Rock: 0,
 			Steel: 1,
 			Water: 1,
+			Cosmic: 0,
 		},
-		HPivs: {def: 30, spd: 30, spe: 30},
-		HPdvs: {atk: 13, def: 12},
+		HPivs: {spa: 30, spd: 30},
 	},
 	steel: {
 		damageTaken: {
@@ -412,9 +416,9 @@ export const TypeChart: {[k: string]: TypeData} = {
 			Rock: 2,
 			Steel: 2,
 			Water: 0,
+			Cosmic: 0,
 		},
-		HPivs: {spd: 30},
-		HPdvs: {atk: 13},
+		HPivs: {atk: 30, spd: 30},
 	},
 	water: {
 		damageTaken: {
@@ -436,8 +440,32 @@ export const TypeChart: {[k: string]: TypeData} = {
 			Rock: 0,
 			Steel: 2,
 			Water: 2,
+			Cosmic: 0,
 		},
-		HPivs: {atk: 30, def: 30, spa: 30},
-		HPdvs: {atk: 14, def: 13},
+		HPivs: {atk: 30, spa: 30, spe: 30},
+	},
+	cosmic: {
+		damageTaken: {
+			Bug: 0,
+			Dark: 0,
+			Dragon: 0,
+			Electric: 0,
+			Fairy: 0,
+			Fighting: 0,
+			Fire: 3,
+			Flying: 0,
+			Ghost: 0,
+			Grass: 0,
+			Ground: 0,
+			Ice: 0,
+			Normal: 1,
+			Poison: 0,
+			Psychic: 0,
+			Rock: 0,
+			Steel: 0,
+			Water: 0,
+			Cosmic: 0,
+		},
+		HPivs: {},
 	},
 };
