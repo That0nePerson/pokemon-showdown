@@ -15249,7 +15249,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	barraskewda: {
 		num: 847,
 		name: "Barraskewda",
-		types: ["Water"],
+		types: ["Water", "Fire"],
 		baseStats: {hp: 61, atk: 123, def: 60, spa: 60, spd: 50, spe: 136},
 		abilities: {0: "Swift Swim", H: "Propeller Tail"},
 		heightm: 1.3,
