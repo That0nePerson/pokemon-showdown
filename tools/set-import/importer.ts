@@ -335,7 +335,7 @@ function toPokemonSet(
 			if (!set.ivs || (dex.gen >= 7 && (!set.level || set.level === 100))) {
 				set.hpType = type;
 				fill = 31;
-			} else if (dex.gen === 2) {
+			} /*else if (dex.gen === 2) {
 				const dvs = {...dex.types.get(type).HPdvs};
 				let stat: StatID;
 				for (stat in dvs) {
@@ -343,7 +343,7 @@ function toPokemonSet(
 				}
 				set.ivs = {...dvs, ...set.ivs};
 				set.ivs.hp = expectedHP(set.ivs);
-			} else {
+			} */else {
 				set.ivs = {...dex.types.get(type).HPivs, ...set.ivs};
 			}
 		}

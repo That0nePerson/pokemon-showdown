@@ -389,7 +389,7 @@ interface ModdedBattleScriptsData extends Partial<BattleScriptsData> {
 
 interface TypeData {
 	damageTaken: {[attackingTypeNameOrEffectid: string]: number};
-	HPdvs?: SparseStatsTable;
+	//HPdvs?: SparseStatsTable;
 	HPivs?: SparseStatsTable;
 	isNonstandard?: Nonstandard | null;
 }

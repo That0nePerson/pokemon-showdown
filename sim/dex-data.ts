@@ -230,7 +230,7 @@ export class TypeInfo implements Readonly<TypeData> {
 	/** The IVs to get this Type Hidden Power (in gen 3 and later) */
 	readonly HPivs: SparseStatsTable;
 	/** The DVs to get this Type Hidden Power (in gen 2). */
-	readonly HPdvs: SparseStatsTable;
+	//readonly HPdvs: SparseStatsTable;
 
 	constructor(data: AnyObject) {
 		this.exists = true;
@@ -244,7 +244,7 @@ export class TypeInfo implements Readonly<TypeData> {
 		this.isNonstandard = data.isNonstandard || null;
 		this.damageTaken = data.damageTaken || {};
 		this.HPivs = data.HPivs || {};
-		this.HPdvs = data.HPdvs || {};
+		//this.HPdvs = data.HPdvs || {};
 	}
 
 	toString() {
