@@ -2876,6 +2876,15 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 5,
 		num: 74,
 	},
+	purefocus: {
+		onModifySpAPriority: 5,
+		onModifySpA(spa) {
+			return this.chainModify(2);
+		},
+		name: "Pure Focus",
+		rating: 5,
+		num: -74,
+	},
 	queenlymajesty: {
 		onFoeTryMove(target, source, move) {
 			const targetAllExceptions = ['perishsong', 'flowershield', 'rototiller'];
