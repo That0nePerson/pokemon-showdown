@@ -5,6 +5,7 @@
  * Set probability code written by Annika
  */
 
+/*
 import {FS, Utils} from '../../lib';
 import {SSBSet, ssbSets} from '../../data/mods/ssb/random-teams';
 
@@ -1061,4 +1062,4 @@ export const commands: Chat.ChatCommands = {
 			`Requires: % @ # & (globally or in the Random Battles room)`
 		);
 	},
-};
+};*/

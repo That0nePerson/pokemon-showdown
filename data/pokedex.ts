@@ -1,7 +1,7 @@
 export const Pokedex: {[speciesid: string]: SpeciesData} = {
-	bulbasaur: {
+	bulbasauregho: {
 		num: 1,
-		name: "Bulbasaur",
+		name: "Bulbasaur-Egho",
 		types: ["Grass", "Rock"],
 		genderRatio: {M: 0.5, F: 0.5},
 		baseStats: {hp: 44, atk: 60, def: 54, spa: 50, spd: 64, spe: 37},
@@ -12,9 +12,9 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		evos: ["Ivysaur"],
 		eggGroups: ["Monster", "Grass"],
 	},
-	ivysaur: {
+	ivysauregho: {
 		num: 2,
-		name: "Ivysaur",
+		name: "Ivysaur-Egho",
 		types: ["Grass", "Rock"],
 		genderRatio: {M: 0.5, F: 0.5},
 		baseStats: {hp: 60, atk: 80, def: 65, spa: 67, spd: 78, spe: 45},
@@ -25,9 +25,9 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		evos: ["Venusaur"],
 		eggGroups: ["Monster", "Grass"],
 	},
-	venusaur: {
+	venusauregho: {
 		num: 3,
-		name: "Venusaur",
+		name: "Venusaur-Egho",
 		types: ["Grass", "Rock"],
 		genderRatio: {M: 0.5, F: 0.5},
 		baseStats: {hp: 80, atk: 109, def: 88, spa: 90, spd: 100, spe: 67},
@@ -37,9 +37,9 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Green",
 		eggGroups: ["Monster", "Grass"],
 	},
-	charmander: {
+	charmanderegho: {
 		num: 4,
-		name: "Charmander",
+		name: "Charmander-Egho",
 		types: ["Fire", "Dragon"],
 		genderRatio: {M: 0.5, F: 0.5},
 		baseStats: {hp: 39, atk: 52, def: 43, spa: 60, spd: 50, spe: 65},
@@ -50,9 +50,9 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		evos: ["Charmeleon"],
 		eggGroups: ["Monster", "Dragon"],
 	},
-	charmeleon: {
+	charmeleonegho: {
 		num: 5,
-		name: "Charmeleon",
+		name: "Charmeleon-Egho",
 		types: ["Fire", "Dragon"],
 		genderRatio: {M: 0.5, F: 0.5},
 		baseStats: {hp: 58, atk: 64, def: 58, spa: 80, spd: 65, spe: 80},
@@ -63,9 +63,9 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		evos: ["Charizard"],
 		eggGroups: ["Monster", "Dragon"],
 	},
-	charizard: {
+	charizardegho: {
 		num: 6,
-		name: "Charizard",
+		name: "Charizard-Egho",
 		types: ["Fire", "Dragon"],
 		genderRatio: {M: 0.5, F: 0.5},
 		baseStats: {hp: 76, atk: 88, def: 75, spa: 109, spd: 80, spe: 106},
@@ -75,9 +75,9 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Red",
 		eggGroups: ["Monster", "Dragon"],
 	},
-	squirtle: {
+	squirtleegho: {
 		num: 7,
-		name: "Squirtle",
+		name: "Squirtle-Egho",
 		types: ["Water"],
 		genderRatio: {M: 0.5, F: 0.5},
 		baseStats: {hp: 44, atk: 48, def: 65, spa: 50, spd: 64, spe: 43},
@@ -88,9 +88,9 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		evos: ["Wartortle"],
 		eggGroups: ["Monster", "Water1"],
 	},
-	wartortle: {
+	wartortleegho: {
 		num: 8,
-		name: "Wartortle",
+		name: "Wartortle-Egho",
 		types: ["Water", "Flying"],
 		genderRatio: {M: 0.5, F: 0.5},
 		baseStats: {hp: 59, atk: 63, def: 80, spa: 65, spd: 80, spe: 58},
@@ -101,9 +101,9 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		evos: ["Blastoise"],
 		eggGroups: ["Monster", "Water1"],
 	},
-	blastoise: {
+	blastoiseegho: {
 		num: 9,
-		name: "Blastoise",
+		name: "Blastoise-Egho",
 		types: ["Water", "Flying"],
 		genderRatio: {M: 0.5, F: 0.5},
 		baseStats: {hp: 79, atk: 80, def: 95, spa: 95, spd: 100, spe: 81},
@@ -9173,9 +9173,9 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Pink",
 		eggGroups: ["Field"],
 	},
-	shellder2: {
+	shellderegho: {
 		num: 736,
-		name: "Shellder",
+		name: "Shellder-Egho",
 		types: ["Water", "Steel"],
 		genderRatio: {M: 0.5, F: 0.5},
 		baseStats: {hp: 52, atk: 40, def: 70, spa: 55, spd: 57, spe: 31},
@@ -9198,9 +9198,9 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Gray",
 		eggGroups: ["Water3"],
 	},
-	grimer2: {
+	grimeregho: {
 		num: 738,
-		name: "Grimer",
+		name: "Grimer-Egho",
 		types: ["Poison", "Rock"],
 		genderRatio: {M: 0.5, F: 0.5},
 		baseStats: {hp: 80, atk: 70, def: 50, spa: 60, spd: 40, spe: 25},
@@ -9211,9 +9211,9 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		evos: ["Muk2"],
 		eggGroups: ["Amorphous", "Mineral"],
 	},
-	muk2: {
+	mukegho: {
 		num: 739,
-		name: "Muk",
+		name: "Muk-Egho",
 		types: ["Poison", "Rock"],
 		genderRatio: {M: 0.5, F: 0.5},
 		baseStats: {hp: 110, atk: 105, def: 70, spa: 95, spd: 65, spe: 55},
@@ -9381,9 +9381,9 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Brown",
 		eggGroups: ["Monster"],
 	},
-	spearow2: {
+	spearowegho: {
 		num: 753,
-		name: "Spearow",
+		name: "Spearow-Egho",
 		types: ["Dark", "Fighting"],
 		genderRatio: {M: 0.5, F: 0.5},
 		baseStats: {hp: 40, atk: 70, def: 25, spa: 26, spd: 31, spe: 70},
@@ -9394,9 +9394,9 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		evos: ["Fearow2"],
 		eggGroups: ["Flying"],
 	},
-	fearow2: {
+	fearowegho: {
 		num: 754,
-		name: "Fearow",
+		name: "Fearow-Egho",
 		types: ["Dark", "Fighting"],
 		genderRatio: {M: 0.5, F: 0.5},
 		baseStats: {hp: 65, atk: 112, def: 55, spa: 50, spd: 50, spe: 110},
@@ -9406,9 +9406,9 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Red",
 		eggGroups: ["Flying"],
 	},
-	hoothoot2: {
+	hoothootegho: {
 		num: 755,
-		name: "Hoothoot",
+		name: "Hoothoot-Egho",
 		types: ["Dark", "Flying"],
 		genderRatio: {M: 0.5, F: 0.5},
 		baseStats: {hp: 60, atk: 30, def: 40, spa: 56, spd: 36, spe: 40},
@@ -9419,9 +9419,9 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		evos: ["Noctowl2"],
 		eggGroups: ["Flying"],
 	},
-	noctowl2: {
+	noctowlegho: {
 		num: 756,
-		name: "Noctowl",
+		name: "Noctowl-Egho",
 		types: ["Dark", "Flying"],
 		genderRatio: {M: 0.5, F: 0.5},
 		baseStats: {hp: 86, atk: 50, def: 77, spa: 99, spd: 70, spe: 70},
@@ -9444,9 +9444,9 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Black",
 		eggGroups: ["Flying"],
 	},
-	azurill2: {
+	azurillegho: {
 		num: 758,
-		name: "Azurill",
+		name: "Azurill-Egho",
 		types: ["Normal", "Rock"],
 		genderRatio: {M: 0.5, F: 0.5},
 		baseStats: {hp: 50, atk: 40, def: 30, spa: 20, spd: 25, spe: 25},
@@ -9457,9 +9457,9 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		evos: ["Marill2"],
 		eggGroups: ["Undiscovered"],
 	},
-	marill2: {
+	marillegho: {
 		num: 759,
-		name: "Marill",
+		name: "Marill-Egho",
 		types: ["Rock", "Fighting"],
 		genderRatio: {M: 0.5, F: 0.5},
 		baseStats: {hp: 70, atk: 50, def: 40, spa: 20, spd: 30, spe: 40},
@@ -9470,9 +9470,9 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		evos: ["Azumarill2"],
 		eggGroups: ["Field", "Fairy"],
 	},
-	azumarill2: {
+	azumarillegho: {
 		num: 760,
-		name: "Azumarill",
+		name: "Azumarill-Egho",
 		types: ["Rock", "Fighting"],
 		genderRatio: {M: 0.5, F: 0.5},
 		baseStats: {hp: 100, atk: 80, def: 65, spa: 60, spd: 60, spe: 55},
@@ -9482,9 +9482,9 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Brown",
 		eggGroups: ["Field", "Fairy"],
 	},
-	trubbish2: {
+	trubbishegho: {
 		num: 761,
-		name: "Trubbish",
+		name: "Trubbish-Egho",
 		types: ["Poison", "Steel"],
 		genderRatio: {M: 0.5, F: 0.5},
 		baseStats: {hp: 50, atk: 40, def: 72, spa: 60, spd: 62, spe: 45},
@@ -9495,9 +9495,9 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		evos: ["Garbodor2"],
 		eggGroups: ["Mineral"],
 	},
-	garbodor2: {
+	garbodoregho: {
 		num: 762,
-		name: "Garbodor",
+		name: "Garbodor-Egho",
 		types: ["Poison", "Steel"],
 		genderRatio: {M: 0.5, F: 0.5},
 		baseStats: {hp: 80, atk: 50, def: 97, spa: 90, spd: 82, spe: 75},
@@ -9507,9 +9507,9 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Gray",
 		eggGroups: ["Mineral"],
 	},
-	swablu2: {
+	swabluegho: {
 		num: 763,
-		name: "Swablu",
+		name: "Swablu-Egho",
 		types: ["Normal", "Ice"],
 		genderRatio: {M: 0.5, F: 0.5},
 		baseStats: {hp: 50, atk: 30, def: 55, spa: 60, spd: 45, spe: 70},
@@ -9520,9 +9520,9 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		evos: ["Altaria2"],
 		eggGroups: ["Flying", "Dragon"],
 	},
-	altaria2: {
+	altariaegho: {
 		num: 764,
-		name: "Altaria",
+		name: "Altaria-Egho",
 		types: ["Dragon", "Ice"],
 		genderRatio: {M: 0.5, F: 0.5},
 		baseStats: {hp: 80, atk: 60, def: 90, spa: 95, spd: 60, spe: 105},
@@ -9532,9 +9532,9 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Blue",
 		eggGroups: ["Flying", "Dragon"],
 	},
-	lotad2: {
+	lotadegho: {
 		num: 765,
-		name: "Lotad",
+		name: "Lotad-Egho",
 		types: ["Fire", "Steel"],
 		genderRatio: {M: 0.5, F: 0.5},
 		baseStats: {hp: 40, atk: 30, def: 40, spa: 50, spd: 30, spe: 30},
@@ -9545,9 +9545,9 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		evos: ["Lombre2"],
 		eggGroups: ["Monster", "Field"],
 	},
-	lombre2: {
+	lombreegho: {
 		num: 766,
-		name: "Lombre",
+		name: "Lombre-Egho",
 		types: ["Fire", "Steel"],
 		genderRatio: {M: 0.5, F: 0.5},
 		baseStats: {hp: 60, atk: 50, def: 60, spa: 70, spd: 50, spe: 50},
@@ -9558,9 +9558,9 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		evos: ["Ludicolo2"],
 		eggGroups: ["Monster", "Field"],
 	},
-	ludicolo2: {
+	ludicoloegho: {
 		num: 767,
-		name: "Ludicolo",
+		name: "Ludicolo-Egho",
 		types: ["Fire", "Steel"],
 		genderRatio: {M: 0.5, F: 0.5},
 		baseStats: {hp: 80, atk: 60, def: 95, spa: 95, spd: 75, spe: 75},
@@ -9606,9 +9606,9 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Green",
 		eggGroups: ["Field"],
 	},
-	magnemite2: {
+	magnemiteegho: {
 		num: 771,
-		name: "Magnemite",
+		name: "Magnemite-Egho",
 		types: ["Grass", "Steel"],
 		genderRatio: {M: 0.5, F: 0.5},
 		baseStats: {hp: 40, atk: 80, def: 55, spa: 35, spd: 70, spe: 45},
@@ -9619,9 +9619,9 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		evos: ["Magneton2"],
 		eggGroups: ["Grass", "Mineral"],
 	},
-	magneton2: {
+	magnetonegho: {
 		num: 772,
-		name: "Magneton",
+		name: "Magneton-Egho",
 		types: ["Grass", "Steel"],
 		genderRatio: {M: 0.5, F: 0.5},
 		baseStats: {hp: 65, atk: 105, def: 70, spa: 60, spd: 95, spe: 70},
@@ -9632,9 +9632,9 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		evos: ["Magnezone2"],
 		eggGroups: ["Grass", "Mineral"],
 	},
-	magnezone2: {
+	magnezoneegho: {
 		num: 773,
-		name: "Magnezone",
+		name: "Magnezone-Egho",
 		types: ["Grass", "Steel"],
 		genderRatio: {M: 0.5, F: 0.5},
 		baseStats: {hp: 80, atk: 120, def: 90, spa: 70, spd: 115, spe: 60},
@@ -9644,9 +9644,9 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Green",
 		eggGroups: ["Grass", "Mineral"],
 	},
-	tangela2: {
+	tangelaegho: {
 		num: 774,
-		name: "Tangela",
+		name: "Tangela-Egho",
 		types: ["Electric", "Steel"],
 		genderRatio: {M: 0.5, F: 0.5},
 		baseStats: {hp: 60, atk: 70, def: 90, spa: 80, spd: 90, spe: 45},
@@ -9657,9 +9657,9 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		evos: ["Tangrowth2"],
 		eggGroups: ["Mineral", "Monster"],
 	},
-	tangrowth2: {
+	tangrowthegho: {
 		num: 775,
-		name: "Tangrowth",
+		name: "Tangrowth-Egho",
 		types: ["Electric", "Steel"],
 		genderRatio: {M: 0.5, F: 0.5},
 		baseStats: {hp: 114, atk: 55, def: 107, spa: 90, spd: 77, spe: 92},
@@ -9693,9 +9693,9 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "White",
 		eggGroups: ["Amorphous", "Water1"],
 	},
-	happiny2: {
+	happinyegho: {
 		num: 778,
-		name: "Happiny",
+		name: "Happiny-Egho",
 		types: ["Fighting", "Fairy"],
 		genderRatio: {M: 0.5, F: 0.5},
 		baseStats: {hp: 65, atk: 100, def: 15, spa: 5, spd: 5, spe: 30},
@@ -9706,9 +9706,9 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		evos: ["Chansey2"],
 		eggGroups: ["Undiscovered"],
 	},
-	chansey2: {
+	chanseyegho: {
 		num: 779,
-		name: "Chansey",
+		name: "Chansey-Egho",
 		types: ["Fighting", "Fairy"],
 		genderRatio: {M: 0.5, F: 0.5},
 		baseStats: {hp: 105, atk: 250, def: 35, spa: 5, spd: 5, spe: 50},
@@ -9719,9 +9719,9 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		evos: ["Blissey2"],
 		eggGroups: ["Fairy"],
 	},
-	blissey2: {
+	blisseyegho: {
 		num: 780,
-		name: "Blissey",
+		name: "Blissey-Egho",
 		types: ["Fighting", "Fairy"],
 		genderRatio: {M: 0.5, F: 0.5},
 		baseStats: {hp: 135, atk: 255, def: 55, spa: 10, spd: 10, spe: 75},
@@ -9978,7 +9978,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Gray",
 		eggGroups: ["Undiscovered"],
 	},
-	bulbasaur2: {
+	bulbasaur: {
 		num: 801,
 		name: "Bulbasaur",
 		types: ["Grass", "Poison"],
@@ -9991,7 +9991,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		evos: ["Ivysaur2"],
 		eggGroups: ["Monster", "Grass"],
 	},
-	ivysaur2: {
+	ivysaur: {
 		num: 802,
 		name: "Ivysaur",
 		types: ["Grass", "Poison"],
@@ -10004,7 +10004,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		evos: ["Venusaur2"],
 		eggGroups: ["Monster", "Grass"],
 	},
-	venusaur2: {
+	venusaur: {
 		num: 803,
 		name: "Venusaur",
 		types: ["Grass", "Poison"],
@@ -10016,7 +10016,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Green",
 		eggGroups: ["Monster", "Grass"],
 	},
-	charmander2: {
+	charmander: {
 		num: 804,
 		name: "Charmander",
 		types: ["Fire"],
@@ -10029,7 +10029,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		evos: ["Charmeleon2"],
 		eggGroups: ["Monster", "Dragon"],
 	},
-	charmeleon2: {
+	charmeleon: {
 		num: 805,
 		name: "Charmeleon",
 		types: ["Fire"],
@@ -10042,7 +10042,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		evos: ["Charizard2"],
 		eggGroups: ["Monster", "Dragon"],
 	},
-	charizard2: {
+	charizard: {
 		num: 806,
 		name: "Charizard",
 		types: ["Fire", "Flying"],
@@ -10054,7 +10054,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Red",
 		eggGroups: ["Monster", "Dragon"],
 	},
-	squirtle2: {
+	squirtle: {
 		num: 807,
 		name: "Squirtle",
 		types: ["Water"],
@@ -10067,7 +10067,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		evos: ["Wartortle2"],
 		eggGroups: ["Monster", "Water1"],
 	},
-	wartortle2: {
+	wartortle: {
 		num: 808,
 		name: "Wartortle",
 		types: ["Water"],
@@ -10080,7 +10080,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		evos: ["Blastoise2"],
 		eggGroups: ["Monster", "Water1"],
 	},
-	blastoise2: {
+	blastoise: {
 		num: 809,
 		name: "Blastoise",
 		types: ["Water"],
@@ -10230,9 +10230,9 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Green",
 		eggGroups: ["Monster", "Amorphous"],
 	},
-	oddish2: {
+	oddishegho: {
 		num: 821,
-		name: "Oddish",
+		name: "Oddish-Egho",
 		types: ["Ghost", "Poison"],
 		genderRatio: {M: 0.5, F: 0.5},
 		baseStats: {hp: 45, atk: 30, def: 65, spa: 75, spd: 55, spe: 50},
@@ -10243,9 +10243,9 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		evos: ["Gloom2"],
 		eggGroups: ["Amorphous", "Monster"],
 	},
-	gloom2: {
+	gloomegho: {
 		num: 822,
-		name: "Gloom",
+		name: "Gloom-Egho",
 		types: ["Ghost", "Poison"],
 		genderRatio: {M: 0.5, F: 0.5},
 		baseStats: {hp: 60, atk: 45, def: 90, spa: 85, spd: 65, spe: 55},
@@ -10418,9 +10418,9 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Brown",
 		eggGroups: ["Grass", "Fairy"],
 	},
-	chikorita2: {
+	chikoritaegho: {
 		num: 836,
-		name: "Chikorita",
+		name: "Chikorita-Egho",
 		types: ["Grass", "Dragon"],
 		genderRatio: {M: 0.5, F: 0.5},
 		baseStats: {hp: 85, atk: 10, def: 49, spa: 65, spd: 65, spe: 44},
@@ -10431,9 +10431,9 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		evos: ["Bayleef2"],
 		eggGroups: ["Dragon", "Grass"],
 	},
-	bayleef2: {
+	bayleefegho: {
 		num: 837,
-		name: "Bayleef",
+		name: "Bayleef-Egho",
 		types: ["Grass", "Dragon"],
 		genderRatio: {M: 0.5, F: 0.5},
 		baseStats: {hp: 108, atk: 17, def: 63, spa: 80, spd: 80, spe: 57},
@@ -10444,9 +10444,9 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		evos: ["Meganium2"],
 		eggGroups: ["Dragon", "Grass"],
 	},
-	meganium2: {
+	meganiumegho: {
 		num: 838,
-		name: "Meganium",
+		name: "Meganium-Egho",
 		types: ["Grass", "Dragon"],
 		genderRatio: {M: 0.5, F: 0.5},
 		baseStats: {hp: 143, atk: 24, def: 83, spa: 100, spd: 100, spe: 75},
@@ -10456,9 +10456,9 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Red",
 		eggGroups: ["Dragon", "Grass"],
 	},
-	cyndaquil2: {
+	cyndaquilegho: {
 		num: 839,
-		name: "Cyndaquil",
+		name: "Cyndaquil-Egho",
 		types: ["Fire", "Electric"],
 		genderRatio: {M: 0.5, F: 0.5},
 		baseStats: {hp: 50, atk: 38, def: 52, spa: 65, spd: 44, spe: 60},
@@ -10469,9 +10469,9 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		evos: ["Quilava2"],
 		eggGroups: ["Field"],
 	},
-	quilava2: {
+	quilavaegho: {
 		num: 840,
-		name: "Quilava",
+		name: "Quilava-Egho",
 		types: ["Fire", "Electric"],
 		genderRatio: {M: 0.5, F: 0.5},
 		baseStats: {hp: 66, atk: 52, def: 71, spa: 83, spd: 60, spe: 73},
@@ -10482,9 +10482,9 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		evos: ["Typhlosion2"],
 		eggGroups: ["Field"],
 	},
-	typhlosion2: {
+	typhlosionegho: {
 		num: 841,
-		name: "Typhlosion",
+		name: "Typhlosion-Egho",
 		types: ["Fire", "Electric"],
 		genderRatio: {M: 0.5, F: 0.5},
 		baseStats: {hp: 84, atk: 64, def: 94, spa: 120, spd: 78, spe: 97},
@@ -10494,9 +10494,9 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Gray",
 		eggGroups: ["Field"],
 	},
-	totodile2: {
+	totodileegho: {
 		num: 842,
-		name: "Totodile",
+		name: "Totodile-Egho",
 		types: ["Water", "Poison"],
 		genderRatio: {M: 0.5, F: 0.5},
 		baseStats: {hp: 45, atk: 56, def: 45, spa: 57, spd: 42, spe: 69},
@@ -10507,9 +10507,9 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		evos: ["Croconaw2"],
 		eggGroups: ["Monster", "Water1"],
 	},
-	croconaw2: {
+	croconawegho: {
 		num: 843,
-		name: "Croconaw",
+		name: "Croconaw-Egho",
 		types: ["Water", "Poison"],
 		genderRatio: {M: 0.5, F: 0.5},
 		baseStats: {hp: 65, atk: 70, def: 59, spa: 70, spd: 54, spe: 87},
@@ -10520,9 +10520,9 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		evos: ["Feraligatr2"],
 		eggGroups: ["Monster", "Water1"],
 	},
-	feraligatr2: {
+	feraligatregho: {
 		num: 844,
-		name: "Feraligatr",
+		name: "Feraligatr-Egho",
 		types: ["Water", "Poison"],
 		genderRatio: {M: 0.5, F: 0.5},
 		baseStats: {hp: 75, atk: 95, def: 70, spa: 103, spd: 66, spe: 121},
