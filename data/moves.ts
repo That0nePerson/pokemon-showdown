@@ -13456,7 +13456,6 @@ export const Moves: {[moveid: string]: MoveData} = {
 			return move.basePower;
 		},
 		category: "Physical",
-		isNonstandard: "Past",
 		name: "Pursuit",
 		pp: 20,
 		priority: 0,
