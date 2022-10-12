@@ -13635,7 +13635,6 @@ export const Moves: {[moveid: string]: MoveData} = {
 		accuracy: 100,
 		basePower: 20,
 		category: "Physical",
-		isNonstandard: "Past",
 		name: "Rage",
 		pp: 20,
 		priority: 0,

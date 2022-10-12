@@ -24805,6 +24805,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	deoxys: {
 		learnset: {
 			leer: ["8L1"],
+			extremespeed: ["8L97"],
 			wrap: ["8L1"],
 			nightshade: ["8L9"],
 			teleport: ["8L17"],
@@ -24882,7 +24883,14 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			thunderpunch: ["8T"],
 			trick: ["8T"],
 			wonderroom: ["8T"],
+			amnesia: ["8L73"],
 		},
+	},
+	deoxysattack: {
+	},
+	deoxysdefense: {
+	},
+	deoxysspeed: {
 	},
 	turtwig: {
 		learnset: {
@@ -26405,6 +26413,10 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			uproar: ["8T"],
 			worryseed: ["8T"],
 		},
+	},
+	wormadamsandy: {
+	},
+	wormadamtrash: {
 	},
 	mothim: {
 		learnset: {
@@ -30637,6 +30649,31 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			defog: ["8T"],
 		},
 	},
+	rotomheat: {
+		learnset: {
+			overheat: ["8L1"],
+		},
+	},
+	rotomwash: {
+		learnset: {
+			hydropump: ["8L1"],
+		},
+	},
+	rotomfrost: {
+		learnset: {
+			blizzard: ["8L1"],
+		},
+	},
+	rotomfan: {
+		learnset: {
+			airslash: ["8L1"],
+		},
+	},
+	rotommow: {
+		learnset: {
+			leafstorm: ["8L1"],
+		},
+	},
 	uxie: {
 		learnset: {
 			rest: ["8L1", "8M"],
@@ -31197,6 +31234,8 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			defog: ["8T"],
 		},
 	},
+	giratinaorigin: {
+	},
 	cresselia: {
 		learnset: {
 			confusion: ["8L1"],
@@ -31491,6 +31530,8 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			dazzlinggleam: ["8T"],
 		},
 	},
+	shayminsky: {
+	},
 	arceus: {
 		learnset: {
 			seismictoss: ["8L1"],
@@ -31606,6 +31647,40 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			zenheadbutt: ["8T"],
 			defog: ["8T"],
 		},
+	},
+	arceusbug: {
+	},
+	arceusdark: {
+	},
+	arceusdragon: {
+	},
+	arceuselectric: {
+	},
+	arceusfairy: {
+	},
+	arceusfighting: {
+	},
+	arceusfire: {
+	},
+	arceusflying: {
+	},
+	arceusghost: {
+	},
+	arceusgrass: {
+	},
+	arceusground: {
+	},
+	arceusice: {
+	},
+	arceuspoison: {
+	},
+	arceuspsychic: {
+	},
+	arceusrock: {
+	},
+	arceussteel: {
+	},
+	arceuswater: {
 	},
 	victini: {
 		learnset: {
@@ -40122,6 +40197,8 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			defog: ["8T"],
 		},
 	},
+	tornadustherian: {
+	},
 	thundurus: {
 		learnset: {
 			uproar: ["8L1", "8T"],
@@ -40188,6 +40265,8 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			thunderpunch: ["8T"],
 			defog: ["8T"],
 		},
+	},
+	thundurustherian: {
 	},
 	reshiram: {
 		learnset: {
@@ -40378,6 +40457,8 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			defog: ["8T"],
 		},
 	},
+	landorustherian: {
+	},
 	kyurem: {
 		learnset: {
 			icywind: ["8L1", "8T"],
@@ -40438,6 +40519,10 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			signalbeam: ["8T"],
 			zenheadbutt: ["8T"],
 		},
+	},
+	kyuremblack: {
+	},
+	kyuremwhite: {
 	},
 	keldeo: {
 		learnset: {
@@ -40644,6 +40729,14 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			lastresort: ["8T"],
 			zenheadbutt: ["8T"],
 		},
+	},
+	genesectburn: {
+	},
+	genesectchill: {
+	},
+	genesectdouse: {
+	},
+	genesectshock: {
 	},
 	chespin: {
 		learnset: {
@@ -42316,6 +42409,8 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			wonderroom: ["8T"],
 			zenheadbutt: ["8T"],
 		},
+	},
+	meowsticf: {
 	},
 	honedge: {
 		learnset: {
