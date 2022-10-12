@@ -352,7 +352,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Yellow",
 		eggGroups: ["Field"],
 	},
-	nidoranfe: {
+	nidoranf: {
 		num: 29,
 		name: "Nidoran",
 		types: ["Poison"],
@@ -390,7 +390,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Blue",
 		eggGroups: ["Monster", "Field"],
 	},
-	nidoranma: {
+	nidoranm: {
 		num: 32,
 		name: "Nidoran",
 		types: ["Poison"],

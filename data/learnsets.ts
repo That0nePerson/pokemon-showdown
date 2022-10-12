@@ -1683,7 +1683,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			stealthrock: ["8T"],
 		},
 	},
-	nidoranfe: {
+	nidoranf: {
 		learnset: {
 			growl: ["8L1"],
 			scratch: ["8L1"],
@@ -1885,7 +1885,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			megapunch: ["8T"],
 		},
 	},
-	nidoranma: {
+	nidoranm: {
 		learnset: {
 			leer: ["8L1"],
 			peck: ["8L1"],

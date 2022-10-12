@@ -83,7 +83,7 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	sandslash: {
 		name: "Sandslash",
 	},
-	nidoranfe: {
+	nidoranf: {
 		name: "Nidoran",
 	},
 	nidorina: {
@@ -92,7 +92,7 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	nidoqueen: {
 		name: "Nidoqueen",
 	},
-	nidoranma: {
+	nidoranm: {
 		name: "Nidoran",
 	},
 	nidorino: {
