@@ -9360,7 +9360,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	vareon: {
 		num: 751,
 		name: "Vareon",
-		types: ["Qmarks"],
+		types: ["???"],
 		genderRatio: {M: 0.5, F: 0.5},
 		baseStats: {hp: 100, atk: 110, def: 100, spa: 110, spd: 100, spe: 80},
 		abilities: {0: "Protean", H: "Unaware"},
@@ -10584,7 +10584,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	missingno: {
 		num: 849,
 		name: "Missing No.",
-		types: ["Qmarks"],
+		types: ["???"],
 		genderRatio: {M: 0.5, F: 0.5},
 		baseStats: {hp: 111, atk: 100, def: 110, spa: 110, spd: 101, spe: 0},
 		abilities: {0: "Unaware", H: "Analytic"},

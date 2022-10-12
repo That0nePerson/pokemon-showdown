@@ -746,10 +746,6 @@ export const ItemsText: {[k: string]: ItemText} = {
 		name: "Heavy Ball",
 		desc: "A Poke Ball for catching very heavy Pokemon.",
 	},
-	heavydutyboots: {
-		name: "Heavy-Duty Boots",
-		desc: "When switching in, the holder is unaffected by hazards on its side of the field.",
-	},
 	helixfossil: {
 		name: "Helix Fossil",
 		desc: "Can be revived into Omanyte.",

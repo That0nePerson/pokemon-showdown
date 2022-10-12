@@ -1195,7 +1195,7 @@ export const MovesText: {[k: string]: MoveText} = {
 	},
 	dig: {
 		name: "Dig",
-		desc: "This attack charges on the first turn and executes on the second. On the first turn, the user avoids all attacks other than Earthquake and Magnitude but takes double damage from them, and is also unaffected by weather. If the user is holding a Power Herb, the move completes in one turn.",
+		desc: "This attack charges on the first turn and executes on the second. On the first turn, the user avoids all attacks other than Earthquake, Magnitude, and Terra Force but takes double damage from them, and is also unaffected by weather. If the user is holding a Power Herb, the move completes in one turn.",
 		shortDesc: "Digs underground turn 1, strikes turn 2.",
 		gen4: {
 			desc: "This attack charges on the first turn and executes on the second. On the first turn, the user avoids all attacks other than Earthquake and Magnitude, which have doubled power when used against it, and is also unaffected by weather. If the user is holding a Power Herb, the move completes in one turn.",
@@ -6853,5 +6853,245 @@ export const MovesText: {[k: string]: MoveText} = {
 			desc: "Will always result in a critical hit.",
 			shortDesc: "Nearly always goes first. Always crits.",
 		},
+	},
+	nailflick: {
+		name: "Nail Flick",
+		desc: "Has a higher chance for a critical hit.",
+		shortDesc: "High critical hit ratio.",
+	},
+	nostrilflare: {
+		name: "Nostril Flare",
+		desc: "No additional effect.",
+		shortDesc: "Usually goes first.",
+	},
+	barbedtackle: {
+		name: "Barbed Tackle",
+		desc: "Has a 30% chance to poison the target.",
+		shortDesc: "30% chance to poison the target.",
+	},
+	thornwhip: {
+		name: "Thorn Whip",
+		desc: "Has a higher chance for a critical hit.",
+		shortDesc: "High critical hit ratio.",
+	},
+	nimbusfist: {
+		name: "Nimbus Fist",
+		desc: "Has a 100% chance to lower the target's accuracy by 1 stage.",
+		shortDesc: "100% chance to lower the target's accuracy by 1.",
+	},
+	foggystrike: {
+		name: "Foggy Strike",
+		desc: "This move does not check accuracy.",
+		shortDesc: "This move does not check accuracy. Hits foes.",
+	},
+	dryneedles: {
+		name: "Dry Needles",
+		desc: "Hits two to five times. Has a 35% chance to hit two or three times and a 15% chance to hit four or five times. If one of the hits breaks the target's substitute, it will take damage for the remaining hits. If the user has the Skill Link Ability, this move will always hit five times.",
+		shortDesc: "Hits 2-5 times in one turn.",
+	},
+	focusedram: {
+		name: "Focused Ram",
+		desc: "If the target lost HP, the user takes recoil damage equal to 1/4 the HP lost by the target, rounded half up, but not less than 1 HP.",
+		shortDesc: "Has 1/4 recoil.",
+	},
+	searingslash: {
+		name: "Searing Slash",
+		desc: "Has a 10% chance to burn the target and a higher chance for a critical hit.",
+		shortDesc: "High critical hit ratio. 10% chance to burn.",
+	},
+	thunderslash: {
+		name: "Thunder Slash",
+		desc: "Has a higher chance for a critical hit.",
+		shortDesc: "High critical hit ratio.",
+	},
+	typhoon: {
+		name: "Typhoon",
+		desc: "Has a 30% chance to lower the target's accuracy by 1 stage.",
+		shortDesc: "30% chance to lower the foe(s) accuracy by 1.",
+	},
+	dracoblitz: {
+		name: "Draco Blitz",
+		desc: "Has a 10% chance to burn the target. If the target lost HP, the user takes recoil damage equal to 33% the HP lost by the target, rounded half up, but not less than 1 HP.",
+		shortDesc: "Has 33% recoil. 10% chance to burn target. Thaws user.",
+	},
+	faengrush: {
+		name: "Faeng Rush",
+		desc: "Has a 30% chance to make the target flinch.",
+		shortDesc: "30% chance to make the target flinch.",
+	},
+	ambush: {
+		name: "Ambush",
+		desc: "Has a 100% chance to make the target flinch. Fails unless it is the user's first turn on the field.",
+		shortDesc: "Hits first. First turn out only. 100% flinch chance.",
+	},
+	groomguard: {
+		name: "Groom Guard",
+		desc: "Raises the user's Special Defense by 3 stages.",
+		shortDesc: "Raises the user's Sp. Def by 3.",
+	},
+	astralshot: {
+		name: "Astral Shot",
+		desc: "No additional effect.",
+		shortDesc: "Usually goes first.",
+	},
+	cosmicray: {
+		name: "Cosmic Ray",
+		desc: "Has a 15% chance to make the target flinch.",
+		shortDesc: "15% chance to make the target flinch.",
+	},
+	cometshower: {
+		name: "Comet Shower",
+		desc: "Has a 25% chance to make the target(s) flinch.",
+		shortDesc: "Hits adjacent Pokemon. 25% chance to make the target(s) flinch.",
+	},
+	decapattack: {
+		name: "Decap Attack",
+		desc: "If the target lost HP, the user takes recoil damage equal to 33% the HP lost by the target, rounded half up, but not less than 1 HP.",
+		shortDesc: "Has 33% recoil.",
+	},
+	tartantrum: {
+		name: "Tar-Tantrum",
+		desc: "Has a 30% chance to lower the target's Speed by 1 stage.",
+		shortDesc: "30% chance to lower the target's Speed by 1.",
+	},
+	bonesweep: {
+		name: "Bone Sweep",
+		desc: "No additional effect.",
+		shortDesc: "No additional effect. Hits adjacent foes.",
+	},
+	venomswipe: {
+		name: "Venom Swipe",
+		desc: "Has a 30% chance to poison the target(s).",
+		shortDesc: "30% chance to poison the target(s). Hits adjacent pokemon.",
+	},
+	pressurize: {
+		name: "Groom Guard",
+		desc: "Raises the user's Special Defense by 2 stages.",
+		shortDesc: "Raises the user's Sp. Def by 2.",
+	},
+	vanish: {
+		name: "Vanish",
+		desc: "Raises the user's evasiveness by 2 stages.",
+		shortDesc: "Raises the user's evasiveness by 2.",
+	},
+	cactussmash: {
+		name: "Cactus Smash",
+		desc: "Has a 30% chance to poison the target. If the target lost HP, the user takes recoil damage equal to 33% the HP lost by the target, rounded half up, but not less than 1 HP.",
+		shortDesc: "Has 33% recoil. 30% chance to poison target.",
+	},
+	eevoboost: {
+		name: "Evoboost",
+		desc: "Raises the user's Attack, Defense, Special Attack, Special Defense, and Speed by 1 stage.",
+		shortDesc: "Raises user's Atk, Def, SpA, SpD, and Spe by 1.",
+	},
+	dejavu: {
+		name: "Déjà-vu",
+		desc: "This move does not check accuracy.",
+		shortDesc: "This move does not check accuracy. Hits foes.",
+	},
+	bigbang: {
+		name: "Big Bang",
+		desc: "Has a 50% chance to either burn, freeze, or paralyze the target.",
+		shortDesc: "50% chance to paralyze or burn or freeze target.",
+	},
+	boombubble: {
+		name: "Boom Bubble",
+		desc: "Has a 30% chance to make the target flinch.",
+		shortDesc: "30% chance to make the target flinch.",
+	},
+	pepperbreath: {
+		name: "Pepper Breath",
+		desc: "Has a 10% chance to burn the target.",
+		shortDesc: "10% chance to burn the target.",
+	},
+	cinderbreath: {
+		name: "Cinder Breath",
+		desc: "Has a 100% chance to lower the target's accuracy by 1 stage.",
+		shortDesc: "100% chance to lower the foe(s) accuracy by 1.",
+	},
+	novablast: {
+		name: "Nova Blast",
+		desc: "Has a 15% chance to make the target flinch.",
+		shortDesc: "15% chance to make the target flinch.",
+	},
+	gigadestroyer: {
+		name: "Giga Destroyer",
+		desc: "Hits twice. If the first hit breaks the target's substitute, it will take damage for the second hit.",
+		shortDesc: "Hits 2 times in one turn.",
+	},
+	terraforce: {
+		name: "Terra Force",
+		desc: "Damage doubles if the target is using Dig.",
+		shortDesc: "Hits adjacent Pokemon. Double damage on Dig.",
+	},
+	flashflood: {
+		name: "Aqua Jet",
+		desc: "No additional effect.",
+		shortDesc: "Usually goes first.",
+	},
+	brainfreeze: {
+		name: "Brain Freeze",
+		desc: "Has a 10% chance to freeze the target.",
+		shortDesc: "10% chance to freeze the target.",
+	},
+	brainstorm: {
+		name: "Brain Storm",
+		desc: "Has a 70% chance to raise the user's Special Attack by 1 stage.",
+		shortDesc: "70% chance to raise the user's Sp. Atk by 1.",
+	},
+	dinokick: {
+		name: "Dino Kick",
+		desc: "If the target is holding an item that can be removed from it, ignoring the Sticky Hold Ability, this move's power is multiplied by 1.5. If the user has not fainted, the target loses its held item. This move cannot cause Pokemon with the Sticky Hold Ability to lose their held item or cause a Kyogre, a Groudon, a Giratina, an Arceus, a Genesect, a Silvally, a Zacian, or a Zamazenta to lose their Blue Orb, Red Orb, Griseous Orb, Plate, Drive, Memory, Rusted Sword, or Rusted Shield respectively. Items lost to this move cannot be regained with Recycle or the Harvest Ability.",
+		shortDesc: "1.5x damage if foe holds an item. Removes item.",
+	},
+	darkshot: {
+		name: "Dark Shot",
+		desc: "This move does not check accuracy.",
+		shortDesc: "This move does not check accuracy. Hits foes.",
+	},
+	deathnail: {
+		name: "Death Nail",
+		desc: "If this attack does not miss, the effects of Reflect, Light Screen, and Aurora Veil end for the target's side of the field before damage is calculated.",
+		shortDesc: "Destroys screens, unless the target is immune.",
+	},
+	hyperstinkshot: {
+		name: "Hyper-Stink-Shot",
+		desc: "If this move is successful, it breaks through the target's Baneful Bunker, Detect, King's Shield, Protect, or Spiky Shield for this turn, allowing other Pokemon to attack the target normally. If the target's side is protected by Crafty Shield, Mat Block, Quick Guard, or Wide Guard, that protection is also broken for this turn and other Pokemon may attack the target's side normally.",
+		shortDesc: "Breaks the target's protection for this turn.",
+	},
+	yuckytongue: {
+		name: "Yucky Tongue",
+		desc: "Has a 45% chance to paralyze the target.",
+		shortDesc: "45% chance to paralyze the target.",
+	},
+	iceblast: {
+		name: "Ice Blast",
+		desc: "This move's type effectiveness against Water is changed to be super effective no matter what this move's type is.",
+		shortDesc: "Super effective on Water.",
+	},
+	fincutter: {
+		name: "Fin Cutter",
+		desc: "Has a 30% chance to lower the target's Defense by 1 stage.",
+		shortDesc: "30% chance to lower the target's Defense by 1.",
+	},
+	tm24: {
+		name: "TM24",
+		desc: "Has a 30% chance to paralyze the target.",
+		shortDesc: "30% chance to paralyze the target.",
+	},
+	hm05: {
+		name: "HM05",
+		desc: "No additional effect.",
+		shortDesc: "No additional effect.",
+	},
+	hm04: {
+		name: "HM04",
+		desc: "If this move is successful, the user must recharge on the following turn and cannot select a move.",
+		shortDesc: "User cannot move next turn.",
+	},
+	tm53: {
+		name: "TM53",
+		desc: "No additional effect.",
+		shortDesc: "No additional effect.",
 	},
 };

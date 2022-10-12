@@ -1188,6 +1188,10 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		name: "Pure Power",
 		shortDesc: "This Pokemon's Attack is doubled.",
 	},
+	purefocus: {
+		name: "Pure Focus",
+		shortDesc: "This Pokemon's Special Attack is doubled.",
+	},
 	queenlymajesty: {
 		name: "Queenly Majesty",
 		desc: "Priority moves used by opposing Pokemon targeting this Pokemon or its allies are prevented from having an effect.",

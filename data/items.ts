@@ -2341,16 +2341,6 @@ export const Items: {[itemid: string]: ItemData} = {
 		gen: 2,
 		isPokeball: true,
 	},
-	heavydutyboots: {
-		name: "Heavy-Duty Boots",
-		spritenum: 715,
-		fling: {
-			basePower: 80,
-		},
-		num: 1120,
-		gen: 8,
-		// Hazard Immunity implemented in moves.ts
-	},
 	helixfossil: {
 		name: "Helix Fossil",
 		spritenum: 195,

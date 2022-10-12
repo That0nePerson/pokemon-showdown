@@ -858,6 +858,7 @@ export const Aliases: {[alias: string]: string} = {
 	hprock: "Hidden Power Rock",
 	hpsteel: "Hidden Power Steel",
 	hpwater: "Hidden Power Water",
+	hpcosmic: "Hidden Power Cosmic",
 	hjk: "High Jump Kick",
 	hijumpkick: "High Jump Kick",
 	mterrain: "Misty Terrain",
