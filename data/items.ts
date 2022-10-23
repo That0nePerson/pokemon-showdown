@@ -7131,4 +7131,59 @@ export const Items: {[itemid: string]: ItemData} = {
 		gen: 8,
 		isNonstandard: "CAP",
 	},
+
+	/*
+	*
+	*	POKEMON INFINITY ITEMS
+	*
+	*
+	*
+	*/
+
+	astralstone: {
+		name: "Astral Stone",
+		spritenum: 1000,
+		fling: {
+			basePower: 30,
+		},
+		num: 1000,
+		gen: 6,
+		isNonstandard: "Infinity",
+	},
+	slowpoketail: {
+		name: "Slowpoke Tail",
+		spritenum: 1001,
+		fling: {
+			basePower: 30,
+		},
+		num: 1001,
+		gen: 6,
+		isNonstandard: "Infinity",
+	},
+	variastone: {
+		name: "Varia Stone",
+		spritenum: 1002,
+		fling: {
+			basePower: 30,
+		},
+		num: 1002,
+		gen: 6,
+		isNonstandard: "Infinity",
+	},
+	longclub: {
+		name: "Long Club",
+		fling: {
+			basePower: 60,
+		},
+		spritenum: 1003,
+		onModifyCritRatio(critRatio, user) {
+			if (this.toID(user.baseSpecies.baseSpecies) === 'terathwack') {
+				return critRatio + 2;
+			}
+		},
+		itemUser: ["Terathwack"],
+		num: 1003,
+		gen: 6,
+		isNonstandard: "Infinity",
+	},
 };

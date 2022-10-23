@@ -264,6 +264,10 @@ export const Tags: {[id: string]: TagData} = {
 		name: "CAP",
 		speciesFilter: thing => thing.isNonstandard === 'CAP',
 	},
+	infinity: {
+		name: "Infinity",
+		speciesFilter: thing => thing.isNonstandard === 'Infinity',
+	},
 	custom: {
 		name: "Custom",
 		genericFilter: thing => thing.isNonstandard === 'Custom',
