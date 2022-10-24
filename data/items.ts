@@ -7186,4 +7186,13 @@ export const Items: {[itemid: string]: ItemData} = {
 		gen: 6,
 		isNonstandard: "Infinity",
 	},
+	quantumupgrade: {
+		name: "Quantum Upgrade",
+		spritenum: 1004,
+		fling: {
+			basePower: 30,
+		},
+		num: 1004,
+		gen: 6,
+	},
 };
